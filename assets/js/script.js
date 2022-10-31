@@ -9,10 +9,10 @@ signUpButton.addEventListener("click", function(event) {
   
   // TODO: Create user object from submission
   var signupInfo = {
-    firstNameInput: firstNameInput.textContent,
-    lastNameInput: lastNameInput.textContent,
-    emailInput: emailInput.textContent,
-    passwordInput: passwordInput.textContent,
+    firstNameInput: firstNameInput.value,
+    lastNameInput: lastNameInput.value,
+    emailInput: emailInput.value,
+    passwordInput: passwordInput.value,
   }
 
   // TODO: Set new submission to local storage 
